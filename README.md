@@ -567,16 +567,16 @@ Add any MCP server to your AI tool by editing the config file:
 ---
 
 #### 25. Postman MCP — *by Postman*
-> API testing, collections & workspace management
+> Connect AI agents directly to your APIs on Postman
 > 
-> 🔗 [GitHub](https://github.com/nickarora/postman-mcp-server) · 📇 TypeScript
+> 🔗 [GitHub](https://github.com/postmanlabs/postman-mcp-server) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
     "postman": {
       "command": "npx",
-      "args": ["-y", "@nickarora/postman-mcp-server"],
+      "args": ["-y", "@postmanlabs/postman-mcp-server"],
       "env": {
         "POSTMAN_API_KEY": "your-postman-key"
       }
@@ -588,7 +588,7 @@ Add any MCP server to your AI tool by editing the config file:
 ---
 
 #### 26. Cloudflare MCP — *by Cloudflare*
-> Workers, KV, R2, D1 database & Cloudflare services
+> Deploy & configure Workers, KV, R2, D1 on Cloudflare developer platform
 > 
 > 🔗 [GitHub](https://github.com/cloudflare/mcp-server-cloudflare) · 📇 TypeScript · 🎖️ Official
 
@@ -609,19 +609,20 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 27. Vercel MCP — *by Vercel*
-> Deployments, domains, projects & serverless functions
+#### 27. Grafana MCP — *by Grafana Labs*
+> Search dashboards, investigate incidents & query datasources
 > 
-> 🔗 [GitHub](https://github.com/vercel/vercel-mcp) · 📇 TypeScript · 🎖️ Official
+> 🔗 [GitHub](https://github.com/grafana/mcp-grafana) · 🏎️ Go · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "vercel": {
+    "grafana": {
       "command": "npx",
-      "args": ["-y", "@vercel/mcp"],
+      "args": ["-y", "@grafana/mcp-grafana"],
       "env": {
-        "VERCEL_TOKEN": "your-vercel-token"
+        "GRAFANA_URL": "http://localhost:3000",
+        "GRAFANA_API_KEY": "your-grafana-key"
       }
     }
   }
@@ -630,19 +631,19 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 28. Netlify MCP — *by Netlify*
-> Site deployments, forms & serverless functions
+#### 28. CircleCI MCP — *by CircleCI*
+> Fix build failures, manage pipelines & CI/CD
 > 
-> 🔗 [GitHub](https://github.com/netlify/mcp-server-netlify) · 📇 TypeScript · 🎖️ Official
+> 🔗 [GitHub](https://github.com/CircleCI-Public/mcp-server-circleci) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "netlify": {
+    "circleci": {
       "command": "npx",
-      "args": ["-y", "@anthropic/netlify-mcp-server"],
+      "args": ["-y", "@anthropic/circleci-mcp-server"],
       "env": {
-        "NETLIFY_AUTH_TOKEN": "your-netlify-token"
+        "CIRCLECI_TOKEN": "your-circleci-token"
       }
     }
   }
@@ -802,17 +803,20 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 36. Raycast MCP — *by Raycast*
-> Productivity launcher, extensions & AI commands
+#### 36. Webflow MCP — *by Webflow*
+> Edit sites, CMS data, and design systems with AI
 > 
-> 🔗 [GitHub](https://github.com/raycast/mcp-server-raycast) · 📇 TypeScript · 🎖️ Official
+> 🔗 [GitHub](https://github.com/webflow/mcp-server) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "raycast": {
+    "webflow": {
       "command": "npx",
-      "args": ["-y", "@anthropic/raycast-mcp-server"]
+      "args": ["-y", "@webflow/mcp-server"],
+      "env": {
+        "WEBFLOW_API_TOKEN": "your-webflow-token"
+      }
     }
   }
 }
@@ -886,19 +890,20 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 40. CoinGecko MCP — *by hisanibrahim*
-> Cryptocurrency prices, market data & token info
+#### 40. PayPal MCP — *by PayPal*
+> PayPal payments, invoices, subscriptions & transactions
 > 
-> 🔗 [GitHub](https://github.com/hisanibrahim/coingecko-mcp-server) · 📇 TypeScript
+> 🔗 [GitHub](https://github.com/paypal/agent-toolkit) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "coingecko": {
+    "paypal": {
       "command": "npx",
-      "args": ["-y", "coingecko-mcp-server"],
+      "args": ["-y", "@paypal/agent-toolkit", "mcp"],
       "env": {
-        "COINGECKO_API_KEY": "your-coingecko-key"
+        "PAYPAL_CLIENT_ID": "your-client-id",
+        "PAYPAL_SECRET": "your-secret"
       }
     }
   }
@@ -927,17 +932,17 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 42. AWS S3 MCP — *by Amazon Web Services*
-> S3 bucket management, object operations & presigned URLs
+#### 42. AWS MCP — *by Amazon Web Services*
+> S3, Bedrock, CDK, CloudWatch, Cost Analysis & more
 > 
 > 🔗 [GitHub](https://github.com/awslabs/mcp) · 🐍 Python · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "s3": {
+    "aws": {
       "command": "uvx",
-      "args": ["awslabs.s3-mcp-server"],
+      "args": ["awslabs.core-mcp-server"],
       "env": {
         "AWS_ACCESS_KEY_ID": "your-key",
         "AWS_SECRET_ACCESS_KEY": "your-secret",
@@ -968,19 +973,19 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 44. Google Cloud Storage MCP — *by gcloudmcp*
-> Google Cloud Storage bucket & object management
+#### 44. Prisma MCP — *by Prisma*
+> Spin up databases, run migrations & queries with Prisma Postgres
 > 
-> 🔗 [GitHub](https://github.com/nickarora/gcs-mcp-server) · 📇 TypeScript
+> 🔗 [GitHub](https://github.com/prisma/mcp) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "gcs": {
+    "prisma": {
       "command": "npx",
-      "args": ["-y", "gcs-mcp-server"],
+      "args": ["-y", "@prisma/mcp-server"],
       "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "/path/to/credentials.json"
+        "PRISMA_POSTGRES_URL": "your-prisma-postgres-url"
       }
     }
   }
@@ -1030,19 +1035,21 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 47. HuggingFace MCP — *by community*
-> Access HuggingFace models, datasets & spaces
+#### 47. Neo4j MCP — *by Neo4j*
+> Graph database — schema, Cypher queries & knowledge graphs
 > 
-> 🔗 [GitHub](https://github.com/mcpintegrations/huggingface-mcp) · 🐍 Python
+> 🔗 [GitHub](https://github.com/neo4j-contrib/mcp-neo4j/) · 🐍 Python · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "huggingface": {
+    "neo4j": {
       "command": "uvx",
-      "args": ["huggingface-mcp"],
+      "args": ["mcp-neo4j"],
       "env": {
-        "HF_TOKEN": "your-huggingface-token"
+        "NEO4J_URI": "bolt://localhost:7687",
+        "NEO4J_USER": "neo4j",
+        "NEO4J_PASSWORD": "your-password"
       }
     }
   }
@@ -1053,17 +1060,17 @@ Add any MCP server to your AI tool by editing the config file:
 
 ### 💬 Communication (3 servers)
 
-#### 48. Twilio MCP — *by Twilio*
-> SMS, voice calls, WhatsApp & communication APIs
+#### 48. Twilio MCP — *by Twilio Labs*
+> SMS, voice calls, WhatsApp & all Twilio Public APIs
 > 
-> 🔗 [GitHub](https://github.com/twilio/mcp-server-twilio) · 📇 TypeScript · 🎖️ Official
+> 🔗 [GitHub](https://github.com/twilio-labs/mcp) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
     "twilio": {
       "command": "npx",
-      "args": ["-y", "@twilio/mcp-server"],
+      "args": ["-y", "@twilio-labs/mcp"],
       "env": {
         "TWILIO_ACCOUNT_SID": "your-account-sid",
         "TWILIO_AUTH_TOKEN": "your-auth-token"
@@ -1075,19 +1082,19 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 49. Discord MCP — *by v-3*
-> Discord bot, messages, channels & server management
+#### 49. ElevenLabs MCP — *by ElevenLabs*
+> Text-to-speech, voice cloning & audio AI
 > 
-> 🔗 [GitHub](https://github.com/v-3/discord-mcp) · 📇 TypeScript
+> 🔗 [GitHub](https://github.com/elevenlabs/elevenlabs-mcp) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "discord": {
+    "elevenlabs": {
       "command": "npx",
-      "args": ["-y", "discord-mcp"],
+      "args": ["-y", "@elevenlabs/mcp-server"],
       "env": {
-        "DISCORD_TOKEN": "your-discord-bot-token"
+        "ELEVENLABS_API_KEY": "your-elevenlabs-key"
       }
     }
   }
@@ -1096,19 +1103,19 @@ Add any MCP server to your AI tool by editing the config file:
 
 ---
 
-#### 50. Email MCP — *by resend*
-> Send emails via Resend API
+#### 50. Zapier MCP — *by Zapier*
+> Connect AI agents to 8,000+ apps instantly
 > 
-> 🔗 [GitHub](https://github.com/resend/mcp-send-email) · 📇 TypeScript · 🎖️ Official
+> 🔗 [Website](https://zapier.com/mcp) · 📇 TypeScript · 🎖️ Official
 
 ```json
 {
   "mcpServers": {
-    "email": {
+    "zapier": {
       "command": "npx",
-      "args": ["-y", "@resend/mcp-send-email"],
+      "args": ["-y", "@zapier/mcp-server"],
       "env": {
-        "RESEND_API_KEY": "re_your-resend-key"
+        "ZAPIER_API_KEY": "your-zapier-key"
       }
     }
   }
@@ -1209,16 +1216,16 @@ Know a great MCP server? Add it to the list!
 >
 > - This repository is **NOT** affiliated with, endorsed by, sponsored by, or associated with **any** of the companies, organizations, or products referenced herein, including but not limited to:
 >   - **Anthropic** (Model Context Protocol, Claude)
->   - **MongoDB, ClickHouse, Turso, CockroachDB** (Databases)
+>   - **MongoDB, ClickHouse, Turso, CockroachDB, Neo4j, Prisma** (Databases)
 >   - **Supabase, Neon, Redis** (Database platforms)
->   - **Stripe, Dodo Payments** (Payment providers)
->   - **GitHub / Microsoft, GitLab** (Developer platforms)
->   - **Docker, Cloudflare, Vercel, Netlify** (Infrastructure)
->   - **Google / Alphabet** (Drive, Maps, Cloud Storage)
->   - **Slack / Salesforce, Notion** (Productivity)
->   - **Sentry, Linear, Figma, Raycast** (Developer tools)
+>   - **Stripe, Dodo Payments, PayPal** (Payment providers)
+>   - **GitHub / Microsoft, GitLab, CircleCI** (Developer platforms)
+>   - **Docker, Cloudflare, Grafana** (Infrastructure & Monitoring)
+>   - **Google / Alphabet** (Drive, Maps)
+>   - **Slack / Salesforce, Notion, Webflow** (Productivity)
+>   - **Sentry, Linear, Figma, Postman** (Developer tools)
 >   - **Brave, EXA, Tavily** (Search)
->   - **Twilio, Resend** (Communication)
+>   - **Twilio, ElevenLabs, Zapier** (Communication & Automation)
 >   - **Amazon / AWS** (Cloud services)
 >   - Any other company, tool, service, or MCP server listed in this repository
 > - All product names, trademarks, and registered trademarks are the property of their respective owners. Use of these names is solely for **informational and compatibility purposes** and is considered nominative fair use.
